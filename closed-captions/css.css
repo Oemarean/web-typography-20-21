@@ -21,10 +21,15 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 }
 
+.voice3 {
+	font-weight: 700;
+	color:#C62626;
+}
+
 /* **********************************************
-The first paragraph, with extended timing for 
+The first paragraph, with extended timing for
 	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
+	it shows the text after a delay, which
 	corresponds with the time that the word is
 	spoken.
 You probably want to change the styling.
@@ -97,20 +102,12 @@ You probably want to change the styling.
 
 /* **********************************************
 Sounds.
-	You can style the whole body, or you can 
+	You can style the whole body, or you can
 	style anything within the body the moment
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
+/* The moment the class .sound1 is added to the body, the background is blue */
 .sound1 {
-	background: yellow;
-}
-
-iframe {
-	transition: 1s;
-}
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 iframe {
-	transform: rotate(1turn);
+	background: #004AC3;
 }
