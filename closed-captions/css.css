@@ -21,6 +21,12 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 }
 
+#closed-captions {
+	margin: auto 26%;
+  display: block;
+  border-style: none;
+}
+
 .voice3 {
 	font-weight: 700;
 	color:#C62626;
@@ -28,6 +34,13 @@ Feel free to adjust the defaults to your needs.
 
 body {
 	background: #000;
+	color: #fff;
+}
+
+iframe {
+	margin: 15vh auto 50px;
+	display: block;
+  border-style:none;
 }
 
 /* **********************************************
@@ -86,6 +99,15 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s 3.7s;
 }
+
+.p6.on span:first-of-type {
+	font-size: 2em;
+}
+.p6.on span:nth-of-type(2) {
+	font-size: 2em;
+}
+
+
 
 /* **********************************************
 Sounds.
