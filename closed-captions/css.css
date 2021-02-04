@@ -22,7 +22,7 @@ Feel free to adjust the defaults to your needs.
 }
 
 #closed-captions {
-	margin: auto 26%;
+	margin: auto 35vw;
   display: block;
   border-style: none;
 }
@@ -132,7 +132,7 @@ Keyframes
 	}
 
 	50% {
-		background-color: rgb(0, 100, 0);
+		background-color: rgb(0, 0, 100);
 	}
 
 	to {
