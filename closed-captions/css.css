@@ -25,7 +25,7 @@ Feel free to adjust the defaults to your needs.
 }
 
 #closed-captions {
-	margin: auto 35vw;
+	margin: auto 28.65vw;
   display: block;
   border-style: none;
 }
@@ -113,13 +113,21 @@ You probably want to change the styling.
 }
 
 .p6.on span:first-of-type {
-	font-size: 1.6em;
+	font-size: 1.6rem;
 }
 .p6.on span:nth-of-type(2) {
-	font-size: 1.6em;
+	font-size: 1.6rem;
 }
 
+/* **********************************************
+Questioning part
+*********************************************  */
 
+
+.p12.on , .p15.on , .p18.on , .p20.on , .p23.on , .p26.on , .p29.on , .p31.on ,
+.p34.on , .p37.on , .p39.on , .p41.on , .p42.on , .p43.on {
+	font-weight: bold;
+}
 
 /* **********************************************
 Sounds.
