@@ -23,6 +23,7 @@ Feel free to adjust the defaults to your needs.
 
 .voice1 {
 	font-style: italic;
+	color: #00A1E6;
 }
 
 #closed-captions {
@@ -33,8 +34,10 @@ Feel free to adjust the defaults to your needs.
 
 .voice3 {
 	font-weight: 700;
-	color:#C62626;
+	color:#E47C7C;
 }
+
+
 
 body {
 	color: #fff;
@@ -47,11 +50,33 @@ iframe {
   border-style:none;
 }
 
+.voice1::before {
+  content: "Questioner: ";
+	font-style: normal;
+}
+
+.voice2::before {
+  content: "KD6: ";
+	font-style: normal;
+}
+
+.voice3::before {
+  content: "Random officer: ";
+	font-style: normal;
+}
+
+.voice4::before {
+  content: "Person: ";
+	font-style: normal;
+}
+
 /* **********************************************
 source gif:
 https://giphy.com/gifs/l3nWay9wKNdq6WTxm
 https://giphy.com/gifs/game-trippy-psychedelic-l2ZE1w79xHAEBgwOk
 https://giphy.com/gifs/jodeus-processing-hypnotic-jodeus-Qw4X3FnfbmY5HaKlnqw
+https://giphy.com/gifs/snow-gallery-Cv7wrQjYcd6hO
+https://giphy.com/gifs/op-art-optical-opart-MWv2pfmlAk4IYdEFHV
 ********************************************** */
 
 /* **********************************************
@@ -126,6 +151,24 @@ Sounds.
 	animation: hypnotic 43s 1;
 }
 
+.sound10 {
+	animation: hypnotic 43s 1;
+}
+
+/* **********************************************
+SOUNDS CC
+************************************************/
+
+.soundcaption {
+	font-size: 2em;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	margin-top: 4%;
+	color: #fff;
+}
+
+
 /* **********************************************
 Keyframes
 	Some animations behavior
@@ -172,5 +215,15 @@ Keyframes
 
 	to {
 		background-image: url(images/bg3.gif)
+	}
+}
+
+@keyframes hypnotic2 {
+	from {
+		background-image: url(images/bg5.gif)
+	}
+
+	to {
+		background-image: url(images/bg5.gif)
 	}
 }

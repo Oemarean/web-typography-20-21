@@ -7,7 +7,7 @@ captions[4] = ['17.369','20'];
 captions[5] = ['20.1','23.3'];
 	//Fuck off, skin-job!
 captions[6] = ['23.3','25.2'];
-	
+
 captions[7] = ['26.8','31.6'];
 captions[8] = ['32.7','33'];
 captions[9] = ['33.2','34'];
@@ -107,3 +107,36 @@ captions[76] = ['124.92','125.52'];
 captions[77] = ['125.52','127.28'];
 captions[78] = ['128.18','130.14'];
 captions[79] = ['132.58','135'];
+
+// Sounds que
+captions[80] = ['0', '4.0'];
+captions[81] = ['9.0', '10'];
+captions[82] = ['10.4', '12'];
+captions[83] = ['12.2', '13.4'];
+captions[84] = ['13.5', '15.5'];
+captions[85] = ['15.6', '17'];
+captions[86] = ['25.3', '27'];
+captions[87] = ['33', '35'];
+captions[88] = ['61', '63'];
+captions[89] = ['66.5', '68.5'];
+captions[90] = ['86.5', '88'];
+captions[91] = ['95', '98'];
+captions[92] = ['102', '105'];
+captions[93] = ['115', '117'];
+
+
+// Order sound que
+//- taunting music [0.0]
+//- alarm sound [1]
+//- music [0.1]
+//- high pitch going up [2]
+//- music [0.2]
+//- indistinct conversations [3]
+//- conversations continue [4]
+//- increasing high pitch [5]
+//- high pitch intensifies [6]
+//- high pitch intensifies more [7]
+//- taunting music [0.1]
+//- music [0.3]
+//- computer sounds [8]
+//- music [0.4]
