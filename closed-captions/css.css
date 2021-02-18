@@ -11,7 +11,7 @@ Feel free to adjust the defaults to your needs.
 	position: absolute;
 	background: #000;
   padding: 10px;
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -23,11 +23,10 @@ Feel free to adjust the defaults to your needs.
 
 .voice1 {
 	font-style: italic;
-	color: #00A1E6;
 }
 
 #closed-captions {
-	margin: auto 28.65vw;
+	margin: -17.5vh 27vw;
   display: block;
   border-style: none;
 }
@@ -53,21 +52,26 @@ iframe {
 .voice1::before {
   content: "Questioner: ";
 	font-style: normal;
+	color: #00A1E6;
+	font-weight: normal;
 }
 
 .voice2::before {
   content: "KD6: ";
 	font-style: normal;
+	color: #E6B400;
 }
 
 .voice3::before {
   content: "Random officer: ";
 	font-style: normal;
+	color: #FF6B6B;
 }
 
 .voice4::before {
   content: "Person: ";
 	font-style: normal;
+	color:#938FFF;
 }
 
 /* **********************************************
@@ -89,20 +93,22 @@ You probably want to change the styling.
 ********************************************** */
 
 .p6.on span:first-of-type {
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 }
 .p6.on span:nth-of-type(2) {
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 }
 
 /* **********************************************
-Questioning part
+Questioning part (felt irritating)
 *********************************************  */
 
-
-.p12.on , .p15.on , .p18.on , .p20.on , .p23.on , .p26.on , .p29.on , .p31.on ,
-.p34.on , .p37.on , .p39.on , .p41.on , .p42.on , .p43.on {
+.p41.on , .p42.on , .p43.on , .p79.on {
 	font-weight: bold;
+}
+
+.p41.on::before , .p41.on::before , .p41.on::before {
+	font-weight: normal;
 }
 
 /* **********************************************
@@ -124,13 +130,7 @@ Sounds.
 }
 
 .sound2 {
-	background-image: url(images/bg1.gif);
-	background-size: cover;
-	background-position: center;
-}
-
-.sound2 {
-	background-image: url(images/bg4.gif);
+	animation: nothing 18s 1;
 	background-size: cover;
 	background-position: center;
 }
@@ -152,19 +152,19 @@ Sounds.
 }
 
 .sound10 {
-	animation: hypnotic 43s 1;
+	animation: hypnotic2 43s 1;
 }
 
 /* **********************************************
 SOUNDS CC
 ************************************************/
 
-.soundcaption {
+.soundque {
 	font-size: 2em;
 	position: absolute;
 	margin: auto;
 	top: 0;
-	margin-top: 4%;
+	margin-top: 10%;
 	color: #fff;
 }
 
@@ -185,6 +185,16 @@ Keyframes
 
 	to {
 		background-color: #000;
+	}
+}
+
+@keyframes nothing {
+	from {
+		background-image: url(images/bg4.gif)
+	}
+
+	to {
+		background: #000;
 	}
 }
 

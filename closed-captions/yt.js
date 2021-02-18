@@ -2,7 +2,7 @@ var player;
 
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('video-placeholder', {
-		width: 800,
+		width: 900,
 		height: 600,
 		videoId: 'vrP-_T-h9YM',
 		playerVars: {
